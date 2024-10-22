@@ -160,12 +160,6 @@ def retrieve_account(id: int, db: Session = Depends(get_db)) -> Account:
         return Account.model_validate(account_model.__dict__)
     except NoResultFound:
         raise HTTPException(404, f"Account with id {id} does not exist")
-    # try:
-    #     account = get_account_from_database(account_id, db)
-    # except ValueError:
-    #     raise HTTPException(404, "Account not found.")
-    #
-    # return account
 
 
 @app.get("/")
