@@ -54,7 +54,7 @@ fastapi run main.py
 ## Accessing the Application
 
 - **API Endpoint:** [http://localhost:8000](http://localhost:8000)
-- **Swagger Documentation:** [http://localhost:8000/](http://localhost:8000/docs)
+- **Swagger Documentation:** [http://localhost:8000/docs](http://localhost:8000/docs)
 
 ## Running Tests
 
