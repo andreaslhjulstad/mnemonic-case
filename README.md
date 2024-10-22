@@ -1,4 +1,4 @@
-# Setup Guide for Python REST API Application
+# Setup Guide
 
 ## Prerequisites
 
